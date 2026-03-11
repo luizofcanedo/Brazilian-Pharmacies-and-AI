@@ -1,4 +1,4 @@
-const LEADS_API = "https://brazilian-pharmacies-and-ai.onrender.com";
+const LEADS_API = "https://brazilian-pharmacies-and-ai.onrender.com/api/leads";
 
 export type Sentiment = "positive" | "neutral" | "negative";
 
