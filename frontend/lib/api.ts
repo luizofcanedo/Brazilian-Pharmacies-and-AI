@@ -2,15 +2,14 @@ const LEADS_API = "https://brazilian-pharmacies-and-ai.onrender.com";
 
 export type Sentiment = "positive" | "neutral" | "negative";
 
-export interface Lead {
-  id: number;
+export type Lead = {
   name: string;
   city: string;
-  neighborhood: string;
-  gmapsRating: number;
-  lastReviewSnippet: string;
-  aiSentiment: Sentiment;
-}
+  whatsapp: string;
+  maps_rating: number | null;
+  last_analyzed_review: string | null;
+  ai_sentiment: string | null;
+};
 
 export async function fetchLeads(): Promise<Lead[]> {
   const response = await fetch(LEADS_API);
