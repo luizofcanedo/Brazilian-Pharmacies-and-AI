@@ -52,54 +52,28 @@ const chartData = [
 
 const FALLBACK_LEADS: Lead[] = [
   {
-    id: 1,
     name: "Drogaria Paulista 24h",
     city: "São Paulo - SP",
-    neighborhood: "Pinheiros",
-    gmapsRating: 4.6,
-    lastReviewSnippet:
-      "Attentive staff, full inventory and very fast delivery.",
-    aiSentiment: "positive"
+    whatsapp: "(11) 98765-4321",
+    maps_rating: 4.6,
+    last_analyzed_review: "Attentive staff, full inventory and very fast delivery.",
+    ai_sentiment: "Positive"
   },
   {
-    id: 2,
     name: "Farmácia Popular Minas Pharma",
     city: "Belo Horizonte - MG",
-    neighborhood: "Savassi",
-    gmapsRating: 4.1,
-    lastReviewSnippet:
-      "Good service, but checkout waiting time could be better.",
-    aiSentiment: "neutral"
+    whatsapp: "(31) 99999-8888",
+    maps_rating: 4.1,
+    last_analyzed_review: "Good service, but checkout waiting time could be better.",
+    ai_sentiment: "Neutral"
   },
   {
-    id: 3,
     name: "Drogaria Rio Mais",
     city: "Rio de Janeiro - RJ",
-    neighborhood: "Barra da Tijuca",
-    gmapsRating: 3.4,
-    lastReviewSnippet:
-      "Missing some basic medicines and the service is slow.",
-    aiSentiment: "negative"
-  },
-  {
-    id: 4,
-    name: "Farmácia do Trabalhador Brasil",
-    city: "Curitiba - PR",
-    neighborhood: "Centro",
-    gmapsRating: 4.3,
-    lastReviewSnippet:
-      "Competitive prices and good variety of generics. Limited parking.",
-    aiSentiment: "neutral"
-  },
-  {
-    id: 5,
-    name: "Drogaria Sul Farma",
-    city: "Porto Alegre - RS",
-    neighborhood: "Moinhos de Vento",
-    gmapsRating: 4.8,
-    lastReviewSnippet:
-      "Modern store, excellent loyalty program and intuitive app.",
-    aiSentiment: "positive"
+    whatsapp: "(21) 97777-6666",
+    maps_rating: 3.4,
+    last_analyzed_review: "Missing some basic medicines and the service is slow.",
+    ai_sentiment: "Timing Objection"
   }
 ];
 
