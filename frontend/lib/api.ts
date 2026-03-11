@@ -1,4 +1,4 @@
-const LEADS_API = "http://localhost:8000/api/leads";
+const LEADS_API = "https://brazilian-pharmacies-and-ai.onrender.com";
 
 export type Sentiment = "positive" | "neutral" | "negative";
 
