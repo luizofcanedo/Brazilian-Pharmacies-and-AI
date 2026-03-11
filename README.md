@@ -28,4 +28,4 @@ Decoupled Architecture: The frontend is hosted on Vercel to leverage its Edge Ne
 /frontend   # Next.js app (Tailwind/TS)
 
 Link to the website:
-https://vercel.com/luizofcanedos-projects/brazilian-pharmacies-and-ai
+https://brazilian-pharmacies-and-ai.vercel.app
